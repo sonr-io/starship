@@ -1,6 +1,6 @@
 module github.com/hyperweb-io/starship/clients/go/client
 
-go 1.21
+go 1.24
 
 replace (
 	github.com/hyperweb-io/starship/registry => ../../../starship/registry
@@ -8,10 +8,10 @@ replace (
 )
 
 require (
-	github.com/hyperweb-io/starship/registry v0.0.0-20231216105442-4ce4f5ba3829
 	github.com/cosmos/cosmos-sdk v0.47.0-rc2
 	github.com/cosmos/go-bip39 v1.0.0
 	github.com/golang/protobuf v1.5.4
+	github.com/hyperweb-io/starship/registry v0.0.0-20231216105442-4ce4f5ba3829
 	github.com/strangelove-ventures/lens v0.0.0-00010101000000-000000000000
 	github.com/tendermint/tendermint v0.37.0-rc2
 	go.uber.org/zap v1.26.0
@@ -109,7 +109,7 @@ require (
 	github.com/jmespath/go-jmespath v0.4.0 // indirect
 	github.com/jmhodges/levigo v1.0.0 // indirect
 	github.com/json-iterator/go v1.1.12 // indirect
-	github.com/klauspost/compress v1.16.7 // indirect
+	github.com/klauspost/compress v1.18.7 // indirect
 	github.com/lib/pq v1.10.7 // indirect
 	github.com/libp2p/go-buffer-pool v0.1.0 // indirect
 	github.com/magiconair/properties v1.8.7 // indirect
